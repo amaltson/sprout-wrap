@@ -23,6 +23,9 @@ recipes:
 - sprout-osx-apps::imagemagick
 - sprout-osx-apps::node_js
 
+# development (command line)
+- sprout-osx-apps::ack
+
 # apps
 - pivotal_workstation::screen_sharing_app
 - sprout-osx-apps::skype
@@ -32,6 +35,13 @@ recipes:
 - sprout-osx-apps::chrome
 - sprout-osx-apps::menumeters
 - pivotal_workstation::bettertouchtool
+#- sprout-osx-apps::adium
+
+# apps (utilities)
+- sprout-osx-apps::alfred
+- sprout-osx-apps::iterm2
+
+# apps (development)
 - pivotal_workstation::github_for_mac
 - pivotal_workstation::gitx
 - sprout-osx-apps::iterm2
