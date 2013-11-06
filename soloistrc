@@ -1,25 +1,25 @@
 recipes:
 
 # base (required by sprout)
-- sprout-osx-base::bash_it
 - pivotal_workstation::create_var_chef_cache
+- sprout-osx-base::bash_it
 - sprout-osx-base::homebrew
 
 # settings
-- pivotal_workstation::sshd_on
 - pivotal_workstation::inputrc
-- sprout-osx-settings::defaults_fast_key_repeat_rate
 - pivotal_workstation::locate_on
+- pivotal_workstation::sshd_on
+- sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings::global_environment_variables
 
 # development (languages)
 - sprout-osx-rbenv::default
 
 # development (general)
-- pivotal_workstation::workspace_directory
-- pivotal_workstation::unix_essentials
-- pivotal_workstation::git_projects
 - pivotal_workstation::git_config_global_defaults
+- pivotal_workstation::git_projects
+- pivotal_workstation::unix_essentials
+- pivotal_workstation::workspace_directory
 
 # development (rails)
 - pivotal_workstation::gem_setup
@@ -30,18 +30,18 @@ recipes:
 - sprout-osx-apps::ack
 
 # apps
+- pivotal_workstation::bettertouchtool
 - pivotal_workstation::screen_sharing_app
-- sprout-osx-apps::skype
-- sprout-osx-apps::shiftit
-- sprout-osx-apps::dropbox
+- sprout-osx-apps::adium
 - sprout-osx-apps::chrome
 - sprout-osx-apps::chrome_canary
+- sprout-osx-apps::dropbox
 - sprout-osx-apps::firefox
-- sprout-osx-apps::menumeters
-- pivotal_workstation::bettertouchtool
-- sprout-osx-apps::adium
 - sprout-osx-apps::flux
 - sprout-osx-apps::gpgtools
+- sprout-osx-apps::menumeters
+- sprout-osx-apps::shiftit
+- sprout-osx-apps::skype
 
 # apps (utilities)
 - sprout-osx-apps::alfred
@@ -51,13 +51,13 @@ recipes:
 - pivotal_workstation::github_for_mac
 - pivotal_workstation::gitx
 - sprout-osx-apps::iterm2
-- sprout-osx-apps::virtualbox
 - sprout-osx-apps::vagrant
+- sprout-osx-apps::virtualbox
 
 # apps (editors)
-- sprout-osx-apps::macvim
-- sprout-osx-apps::ctags_exuberant
 - pivotal_workstation::sublime_text
+- sprout-osx-apps::ctags_exuberant
+- sprout-osx-apps::macvim
 
 
 node_attributes:
