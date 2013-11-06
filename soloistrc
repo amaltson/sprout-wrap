@@ -47,7 +47,6 @@ recipes:
 - sprout-osx-apps::dropbox
 - sprout-osx-apps::firefox
 - sprout-osx-apps::flux
-- sprout-osx-apps::gpgtools
 - sprout-osx-apps::handbrake
 - sprout-osx-apps::menumeters
 - sprout-osx-apps::shiftit
