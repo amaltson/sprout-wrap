@@ -75,5 +75,8 @@ node_attributes:
   git_projects:
     -
       - sprout-wrap
-      - https://github.com/pivotal-sprout/sprout-wrap.git
+      - git@github.com:amaltson/sprout.git
+    -
+      - workstation
+      - git@github.com:amaltson/workstation.git
   workspace_directory: 'work'
