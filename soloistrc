@@ -40,6 +40,8 @@ recipes:
 - sprout-osx-apps::menumeters
 - pivotal_workstation::bettertouchtool
 - sprout-osx-apps::adium
+- sprout-osx-apps::flux
+- sprout-osx-apps::gpgtools
 
 # apps (utilities)
 - sprout-osx-apps::alfred
