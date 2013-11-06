@@ -28,12 +28,14 @@ recipes:
 
 # development (command line)
 - sprout-osx-apps::ack
+- sprout-osx-apps::ctags_exuberant
 - sprout-osx-apps::heroku_toolbelt
 - sprout-osx-apps::hub
 - sprout-osx-apps::phantomjs
 - sprout-osx-apps::ssh_copy_id
 - sprout-osx-apps::svn
 - sprout-osx-apps::tig
+- sprout-osx-apps::zsh
 
 # apps
 - pivotal_workstation::bettertouchtool
@@ -41,6 +43,7 @@ recipes:
 - sprout-osx-apps::adium
 - sprout-osx-apps::chrome
 - sprout-osx-apps::chrome_canary
+- sprout-osx-apps::clamxav
 - sprout-osx-apps::dropbox
 - sprout-osx-apps::firefox
 - sprout-osx-apps::flux
@@ -49,6 +52,7 @@ recipes:
 - sprout-osx-apps::menumeters
 - sprout-osx-apps::shiftit
 - sprout-osx-apps::skype
+- sprout-osx-apps::xquartz
 
 # apps (utilities)
 - sprout-osx-apps::alfred
