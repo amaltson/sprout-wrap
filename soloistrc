@@ -35,7 +35,7 @@ recipes:
 - sprout-osx-apps::chrome
 - sprout-osx-apps::menumeters
 - pivotal_workstation::bettertouchtool
-#- sprout-osx-apps::adium
+- sprout-osx-apps::adium
 
 # apps (utilities)
 - sprout-osx-apps::alfred
