@@ -12,6 +12,9 @@ recipes:
 - pivotal_workstation::locate_on
 - sprout-osx-settings::global_environment_variables
 
+# development (languages)
+- sprout-osx-rbenv::default
+
 # development (general)
 - pivotal_workstation::workspace_directory
 - pivotal_workstation::unix_essentials

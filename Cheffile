@@ -23,6 +23,10 @@ cookbook 'sprout-pivotal',
   :git => 'https://github.com/amaltson/sprout',
   :path => 'sprout-pivotal'
 
+cookbook 'sprout-osx-rbenv',
+  :git => 'https://github.com/amaltson/sprout',
+  :path => 'sprout-osx-rbenv'
+
 cookbook 'osx',
   :git => 'https://github.com/amaltson/sprout',
   :path => 'osx'

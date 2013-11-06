@@ -7,7 +7,7 @@ GIT
   remote: https://github.com/amaltson/sprout
   path: osx
   ref: master
-  sha: 2666258e44b36f68a3c20ab2bb7b9f61aa6ce871
+  sha: 9c3df373afb68453fc4eb7a1d40b79ee88c93101
   specs:
     osx (0.1.0)
 
@@ -15,7 +15,7 @@ GIT
   remote: https://github.com/amaltson/sprout
   path: pivotal_workstation
   ref: master
-  sha: 2666258e44b36f68a3c20ab2bb7b9f61aa6ce871
+  sha: 9c3df373afb68453fc4eb7a1d40b79ee88c93101
   specs:
     pivotal_workstation (1.0.0)
       dmg (>= 0.0.0)
@@ -29,7 +29,7 @@ GIT
   remote: https://github.com/amaltson/sprout
   path: sprout-osx-apps
   ref: master
-  sha: 2666258e44b36f68a3c20ab2bb7b9f61aa6ce871
+  sha: 9c3df373afb68453fc4eb7a1d40b79ee88c93101
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
@@ -40,15 +40,24 @@ GIT
   remote: https://github.com/amaltson/sprout
   path: sprout-osx-base
   ref: master
-  sha: 2666258e44b36f68a3c20ab2bb7b9f61aa6ce871
+  sha: 9c3df373afb68453fc4eb7a1d40b79ee88c93101
   specs:
     sprout-osx-base (0.1.0)
 
 GIT
   remote: https://github.com/amaltson/sprout
+  path: sprout-osx-rbenv
+  ref: master
+  sha: 9c3df373afb68453fc4eb7a1d40b79ee88c93101
+  specs:
+    sprout-osx-rbenv (0.1.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
+  remote: https://github.com/amaltson/sprout
   path: sprout-osx-settings
   ref: master
-  sha: 2666258e44b36f68a3c20ab2bb7b9f61aa6ce871
+  sha: 9c3df373afb68453fc4eb7a1d40b79ee88c93101
   specs:
     sprout-osx-settings (0.1.0)
       osx (>= 0.0.0)
@@ -58,7 +67,7 @@ GIT
   remote: https://github.com/amaltson/sprout
   path: sprout-pivotal
   ref: master
-  sha: 2666258e44b36f68a3c20ab2bb7b9f61aa6ce871
+  sha: 9c3df373afb68453fc4eb7a1d40b79ee88c93101
   specs:
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
@@ -78,6 +87,7 @@ DEPENDENCIES
   pivotal_workstation (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-base (>= 0)
+  sprout-osx-rbenv (>= 0)
   sprout-osx-settings (>= 0)
   sprout-pivotal (>= 0)
 
