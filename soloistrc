@@ -31,6 +31,9 @@ recipes:
 - sprout-osx-apps::heroku_toolbelt
 - sprout-osx-apps::hub
 - sprout-osx-apps::phantomjs
+- sprout-osx-apps::ssh_copy_id
+- sprout-osx-apps::svn
+- sprout-osx-apps::tig
 
 # apps
 - pivotal_workstation::bettertouchtool
