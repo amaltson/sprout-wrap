@@ -28,6 +28,9 @@ recipes:
 
 # development (command line)
 - sprout-osx-apps::ack
+- sprout-osx-apps::heroku_toolbelt
+- sprout-osx-apps::hub
+- sprout-osx-apps::phantomjs
 
 # apps
 - pivotal_workstation::bettertouchtool
@@ -39,6 +42,7 @@ recipes:
 - sprout-osx-apps::firefox
 - sprout-osx-apps::flux
 - sprout-osx-apps::gpgtools
+- sprout-osx-apps::handbrake
 - sprout-osx-apps::menumeters
 - sprout-osx-apps::shiftit
 - sprout-osx-apps::skype
