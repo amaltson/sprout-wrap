@@ -33,9 +33,10 @@ recipes:
 - pivotal_workstation::screen_sharing_app
 - sprout-osx-apps::skype
 - sprout-osx-apps::shiftit
-- sprout-osx-apps::firefox
 - sprout-osx-apps::dropbox
 - sprout-osx-apps::chrome
+- sprout-osx-apps::chrome_canary
+- sprout-osx-apps::firefox
 - sprout-osx-apps::menumeters
 - pivotal_workstation::bettertouchtool
 - sprout-osx-apps::adium
