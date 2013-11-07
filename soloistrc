@@ -39,15 +39,16 @@ recipes:
 - sprout-osx-apps::zsh
 
 # apps
-- sprout-osx-apps::bettertouchtool
 - sprout-osx-apps::adium
+- sprout-osx-apps::bettertouchtool
 - sprout-osx-apps::chrome
-- sprout-osx-apps::chrome_canary
 - sprout-osx-apps::clamxav
 - sprout-osx-apps::dropbox
+- sprout-osx-apps::evernote
 - sprout-osx-apps::firefox
 - sprout-osx-apps::flux
 - sprout-osx-apps::handbrake
+- sprout-osx-apps::skitch
 - sprout-osx-apps::skype
 - sprout-osx-apps::xquartz
 
