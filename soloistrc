@@ -4,6 +4,7 @@ recipes:
 - pivotal_workstation::create_var_chef_cache
 - sprout-osx-base::bash_it
 - sprout-osx-base::homebrew
+- sprout-osx-apps::homebrew_cask
 
 # settings
 - pivotal_workstation::inputrc
@@ -38,8 +39,7 @@ recipes:
 - sprout-osx-apps::zsh
 
 # apps
-- pivotal_workstation::bettertouchtool
-- pivotal_workstation::screen_sharing_app
+- sprout-osx-apps::bettertouchtool
 - sprout-osx-apps::adium
 - sprout-osx-apps::chrome
 - sprout-osx-apps::chrome_canary
@@ -48,24 +48,23 @@ recipes:
 - sprout-osx-apps::firefox
 - sprout-osx-apps::flux
 - sprout-osx-apps::handbrake
-- sprout-osx-apps::menumeters
-- sprout-osx-apps::shiftit
 - sprout-osx-apps::skype
 - sprout-osx-apps::xquartz
 
 # apps (utilities)
 - sprout-osx-apps::alfred
 - sprout-osx-apps::iterm2
+- sprout-osx-apps::zephyros
 
 # apps (development)
-- pivotal_workstation::github_for_mac
-- pivotal_workstation::gitx
+- sprout-osx-apps::github
+- sprout-osx-apps::gitx_l
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::vagrant
 - sprout-osx-apps::virtualbox
 
 # apps (editors)
-- pivotal_workstation::sublime_text
+- sprout-osx-apps::sublime_text
 - sprout-osx-apps::ctags_exuberant
 - sprout-osx-apps::macvim
 
