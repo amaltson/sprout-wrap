@@ -37,6 +37,7 @@ recipes:
 - sprout-osx-apps::svn
 - sprout-osx-apps::tig
 - sprout-osx-apps::zsh
+- pivotal_workstation::oh_my_zsh
 
 # apps
 - sprout-osx-apps::adium
