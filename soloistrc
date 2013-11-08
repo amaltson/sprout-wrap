@@ -78,7 +78,7 @@ recipes:
 node_attributes:
   git_projects:
     -
-      - sprout-wrap
+      - sprout
       - http://github.com/amaltson/sprout.git
     -
       - workstation
