@@ -4,6 +4,13 @@ SITE
     dmg (2.0.8)
 
 GIT
+  remote: https://github.com/amaltson/dotfiles
+  ref: master
+  sha: 4ccd6721269168ab884f461bf2c470a40564f61b
+  specs:
+    dotfiles (0.0.1)
+
+GIT
   remote: https://github.com/amaltson/sprout
   path: osx
   ref: master
@@ -82,6 +89,7 @@ PATH
       sprout-osx-settings (>= 0.0.0)
 
 DEPENDENCIES
+  dotfiles (>= 0)
   meta (>= 0)
   osx (>= 0)
   pivotal_workstation (>= 0)

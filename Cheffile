@@ -30,3 +30,6 @@ cookbook 'sprout-osx-rbenv',
 cookbook 'osx',
   :git => 'https://github.com/amaltson/sprout',
   :path => 'osx'
+
+cookbook 'dotfiles',
+  :git => 'https://github.com/amaltson/dotfiles'
