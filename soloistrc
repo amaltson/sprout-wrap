@@ -58,6 +58,7 @@ recipes:
 - sprout-osx-apps::alfred
 - sprout-osx-apps::caffeine
 - sprout-osx-apps::f_lux
+- sprout-osx-apps::google_hangouts
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::nosleep
 - sprout-osx-apps::pc_keyboardhack
