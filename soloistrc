@@ -56,8 +56,10 @@ recipes:
 
 # apps (utilities)
 - sprout-osx-apps::alfred
+- sprout-osx-apps::caffeine
 - sprout-osx-apps::f_lux
 - sprout-osx-apps::iterm2
+- sprout-osx-apps::nosleep
 - sprout-osx-apps::pc_keyboardhack
 - sprout-osx-apps::xquartz
 - sprout-osx-apps::zephyros
