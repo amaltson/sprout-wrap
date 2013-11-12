@@ -66,6 +66,7 @@ recipes:
 - sprout-osx-apps::zephyros
 
 # apps (development)
+- sprout-osx-apps::eclipse_jee
 - sprout-osx-apps::github
 - sprout-osx-apps::gitx_l
 - sprout-osx-apps::iterm2
