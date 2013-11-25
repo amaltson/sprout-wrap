@@ -59,6 +59,7 @@ recipes:
 # apps (utilities)
 - sprout-osx-apps::alfred
 - sprout-osx-apps::caffeine
+- sprout-osx-apps::controlplane
 - sprout-osx-apps::f_lux
 - sprout-osx-apps::fantastical
 - sprout-osx-apps::google_hangouts
