@@ -52,7 +52,7 @@ recipes:
 - sprout-osx-apps::path_finder
 - sprout-osx-apps::skitch
 - sprout-osx-apps::skype
-- sprout-osx-apps::vmware_fusion
+# - sprout-osx-apps::vmware_fusion
 
 # apps (utilities)
 - sprout-osx-apps::alfred
