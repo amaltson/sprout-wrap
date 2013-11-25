@@ -28,16 +28,18 @@ recipes:
 - sprout-osx-apps::node_js
 
 # development (command line)
+- pivotal_workstation::oh_my_zsh
 - sprout-osx-apps::ack
+- sprout-osx-apps::autojump
 - sprout-osx-apps::ctags_exuberant
 - sprout-osx-apps::heroku_toolbelt
 - sprout-osx-apps::hub
 - sprout-osx-apps::phantomjs
+- sprout-osx-apps::pv
 - sprout-osx-apps::ssh_copy_id
 - sprout-osx-apps::svn
 - sprout-osx-apps::tig
 - sprout-osx-apps::zsh
-- pivotal_workstation::oh_my_zsh
 
 # apps
 - sprout-osx-apps::adium
@@ -58,10 +60,12 @@ recipes:
 - sprout-osx-apps::alfred
 - sprout-osx-apps::caffeine
 - sprout-osx-apps::f_lux
+- sprout-osx-apps::fantastical
 - sprout-osx-apps::google_hangouts
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::nosleep
 - sprout-osx-apps::pc_keyboardhack
+- sprout-osx-apps::the_unarchiver
 - sprout-osx-apps::xquartz
 - sprout-osx-apps::zephyros
 
@@ -69,6 +73,7 @@ recipes:
 - sprout-osx-apps::eclipse_jee
 - sprout-osx-apps::github
 - sprout-osx-apps::gitx_l
+- sprout-osx-apps::intellij_community
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::vagrant
 - sprout-osx-apps::virtualbox
