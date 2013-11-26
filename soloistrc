@@ -97,4 +97,4 @@ node_attributes:
     -
       - dotfiles
       - https://github.com/amaltson/dotfiles.git
-  workspace_directory: 'work'
+  workspace_directory: 'work/config'
