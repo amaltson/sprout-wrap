@@ -32,6 +32,7 @@ recipes:
 - sprout-osx-apps::ack
 - sprout-osx-apps::autojump
 - sprout-osx-apps::ctags_exuberant
+- sprout-osx-apps::gnu_sed
 - sprout-osx-apps::heroku_toolbelt
 - sprout-osx-apps::hub
 - sprout-osx-apps::phantomjs
@@ -93,4 +94,7 @@ node_attributes:
     -
       - workstation
       - http://github.com/amaltson/workstation.git
+    -
+      - dotfiles
+      - https://github.com/amaltson/dotfiles.git
   workspace_directory: 'work'
