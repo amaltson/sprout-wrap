@@ -85,6 +85,8 @@ recipes:
 - sprout-osx-apps::ctags_exuberant
 - sprout-osx-apps::macvim
 
+# dotfiles
+- dotfiles::default
 
 node_attributes:
   git_projects:
